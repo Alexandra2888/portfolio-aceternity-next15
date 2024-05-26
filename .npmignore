@@ -1,0 +1,32 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variables file
+.env
+
+# Next.js build output
+.next/
+
+# Local build output
+dist/
+out/
+
+# Tests
+__tests__/
+test/
+coverage/
+
+# Static assets
+public/static/
+public/images/
