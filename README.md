@@ -15,7 +15,7 @@ https://main--portfolio-alexandram28.netlify.app/
 Here is a demo of the project:
 
 <video width="100%" controls>
-  <source src="https://github-production-user-asset-6210df.s3.amazonaws.com/76844097/333904972-9326fb52-54e1-4208-bba7-2f9cbb088447.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240526%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240526T193231Z&X-Amz-Expires=300&X-Amz-Signature=c68aecbe59993c719a3be57663d5e1da81ed7a72021170424337124aeb84afdd&X-Amz-SignedHeaders=host&actor_id=76844097&key_id=0&repo_id=806227307" type="video/mp4">
+  <source src="https://github.com/Alexandra2888/portfolio-aceternity-next14/blob/main/portfolio.mp4" type="video/mp4">
 </video>
 
 ## 📋 Table of Contents
