@@ -20,7 +20,7 @@ export default function HeroSection() {
           }
         </p>
         <Link
-          href="mailto:moldovan.alexandra28@gmail.com"
+          href={"mailto:moldovan.alexandra28@gmail.com"}
           className=" inline-block group"
         >
           <Title text="Contact Me ✉️" />
