@@ -13,7 +13,6 @@ Welcome to my portfolio project! This is a modern web application built to showc
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [Contributing](#-contributing)
-- [License](#-license)
 - [Contact](#-contact)
 
 ## ✨ Features
