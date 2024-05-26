@@ -5,7 +5,7 @@
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-2DD3B6?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
-Welcome to my portfolio project! This is a modern web application built to showcase my skills and projects. It is built with Next.js 14, Aeternity blockchain technology, Tailwind CSS for styling, and TypeScript for type safety.
+Welcome to my portfolio project! This is a modern web application built to showcase my skills and projects. It is built with Next.js 14, Aceternity & Tailwind styling, Tailwind CSS for styling, and TypeScript for type safety.
 
 ## 📋 Table of Contents
 
