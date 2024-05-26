@@ -61,7 +61,7 @@ Open a pull request.
 Feel free to reach out to me via email at moldovan.alexandra28@gmail.com.com.
 
 🎞️ Live
-https://github.com/Alexandra2888/portfolio-aceternity-next14/assets/76844097/9326fb52-54e1-4208-bba7-2f9cbb088447
+<iframe width="560" height="315" src="https://github-production-user-asset-6210df.s3.amazonaws.com/76844097/333904972-9326fb52-54e1-4208-bba7-2f9cbb088447.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240526%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240526T193231Z&X-Amz-Expires=300&X-Amz-Signature=c68aecbe59993c719a3be57663d5e1da81ed7a72021170424337124aeb84afdd&X-Amz-SignedHeaders=host&actor_id=76844097&key_id=0&repo_id=806227307" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
