@@ -18,7 +18,7 @@ Welcome to my portfolio project! This is a modern web application built to showc
 ## ✨ Features
 
 - ⚛️ **Next.js 14**: Latest version of Next.js for server-side rendering and static site generation.
-- 🛡️ **Aeternity**: Integrates Aeternity blockchain for decentralized features.
+- 🛡️ **Aceternity**: Integrates Aceternity  for styling alongside with Tailwind & Framer Motion.
 - 🎨 **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
 - 📝 **TypeScript**: Strongly typed programming language that builds on JavaScript.
 
