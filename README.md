@@ -59,3 +59,8 @@ Open a pull request.
 
 📞 Contact
 Feel free to reach out to me via email at moldovan.alexandra28@gmail.com.com.
+
+🎞️ Live
+https://github.com/Alexandra2888/portfolio-aceternity-next14/assets/76844097/61a0fae5-ddf0-4d07-9984-786d8726e71d
+
+
