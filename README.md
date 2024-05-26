@@ -14,7 +14,7 @@ https://main--portfolio-alexandram28.netlify.app/
 
 Here is a demo of the project:
 
-[![Video Title]](https://github.com/Alexandra2888/portfolio-aceternity-next14/blob/main/portfolio.mp4)
+[![Video Title](https://img.youtube.com/vi/VIDEO_ID/0.jpg)]((https://github.com/Alexandra2888/portfolio-aceternity-next14/blob/main/portfolio.mp4)
 
 ## 📋 Table of Contents
 
