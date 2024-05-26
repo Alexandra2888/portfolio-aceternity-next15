@@ -2,7 +2,6 @@
 # 🚀 Portfolio Project
 
 ![Next.js](https://img.shields.io/badge/Next.js-14-000000?style=for-the-badge&logo=next.js)
-![Aeternity](https://img.shields.io/badge/Aeternity-Blockchain-FF5252?style=for-the-badge&logo=aeternity)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-2DD3B6?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
