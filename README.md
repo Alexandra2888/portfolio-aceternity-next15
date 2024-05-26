@@ -7,6 +7,9 @@
 
 Welcome to my portfolio project! This is a modern web application built to showcase my skills and projects. It is built with Next.js 14, Aceternity & Tailwind styling, Tailwind CSS for styling, and TypeScript for type safety.
 
+## Live
+https://main--portfolio-alexandram28.netlify.app/
+
 ## 📋 Table of Contents
 
 - [Features](#-features)
