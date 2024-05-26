@@ -316,7 +316,10 @@
     "yaml": "^2.3.4",
     "yocto-queue": "^0.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "@types/react": "^18.3.3"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
