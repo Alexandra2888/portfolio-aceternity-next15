@@ -13,10 +13,7 @@ https://main--portfolio-alexandram28.netlify.app/
 ## 📹 Demo Video
 
 Here is a demo of the project:
-
-<video width="100%" controls>
-  <source src="https://github.com/Alexandra2888/portfolio-aceternity-next14/blob/main/portfolio.mp4" type="video/mp4">
-</video>
+<iframe width="560" height="315" src="https://github.com/Alexandra2888/portfolio-aceternity-next14/blob/main/portfolio.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 📋 Table of Contents
 
