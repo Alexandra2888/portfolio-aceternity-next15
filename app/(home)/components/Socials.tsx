@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react'
-import { SiLinkedin, SiGithub } from 'react-icons/si';
+import { SiLinkedin, SiGithub, SiHashnode } from 'react-icons/si';
 
 export default function Socials({className}:{className?:string}) {
     const socials = [
@@ -13,7 +13,12 @@ export default function Socials({className}:{className?:string}) {
           link: "https://github.com/Alexandra2888",
           label: "Github",
           icon:SiGithub
-          },
+      },
+      {
+        link: "https://alexandra2888.hashnode.dev/",
+        label: "Hashnode",
+        icon:SiHashnode
+        },
       ]
     
   return (
