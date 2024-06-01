@@ -8,23 +8,23 @@ const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 export const metadata: Metadata = {
 	metadataBase: new URL("http://localhost:3000"),
 
-	title: "chensokheng",
+	title: "alexandra",
 	authors: {
-		name: "chensokheng",
+		name: "alexandra",
 	},
 
 	description:
-		"Based in Cambodia, I'm a Fullstack developer passionate about building a modern web application that users love.",
+		"I'm a FullStack developer passionate about building a modern web application that users love.",
 	openGraph: {
-		title: "Chensokheng",
+		title: "Alexandra",
 		description:
-			"Based in Cambodia, I'm a Fullstack developer passionate about building a modern web application that users love.",
+			"I'm a FullStack developer passionate about building a modern web application that users love.",
 		url: "http://localhost:3000",
-		siteName: "chensokheng",
+		siteName: "alexandra",
 		images: "/og.png",
 		type: "website",
 	},
-	keywords: ["daily web coding", "chensokheng", "dailywebcoding"],
+	keywords: ["alexandra", "portfolio"],
 };
 
 export default function RootLayout({

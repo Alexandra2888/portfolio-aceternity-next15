@@ -41,9 +41,16 @@ export default function Projects() {
 		{
 			title: "Krello",
 			tech: [ SiNextdotjs, SiTypescript, SiTailwindcss, SiPrisma],
-			link: "https://github.com/Alexandra2888/Focus-Time",
+			link: "https://github.com/Alexandra2888/krello",
 			cover: "/krello.png",
 			background: "bg-purple-500",
+		},
+		{
+			title: "WatchFlix",
+			tech: [ SiNextdotjs, SiTypescript, SiTailwindcss, SiPrisma, SiMongodb],
+			link: "https://github.com/Alexandra2888/watchflix",
+			cover: "/watchflix.png",
+			background: "bg-yellow-500",
 		},
 		
 	];
