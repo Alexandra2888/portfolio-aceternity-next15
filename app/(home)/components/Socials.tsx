@@ -18,7 +18,7 @@ export default function Socials({className}:{className?:string}) {
         link: "https://alexandra2888.hashnode.dev/",
         label: "Hashnode",
         icon:SiHashnode
-        },
+      },
       ]
     
   return (

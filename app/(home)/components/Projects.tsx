@@ -5,6 +5,7 @@ import {
 	SiMongodb,
 	SiNextdotjs,
 	SiNodedotjs,
+	SiOpenai,
 	SiPrisma,
 	SiReact,
 	SiTailwindcss,
@@ -14,46 +15,53 @@ import Title from "./Title";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { DirectionAwareHover } from "@/components/ui/direction-aware-hover";
+import { backIn } from "framer-motion";
 
 export default function Projects() {
 	const projects = [
-		{
-			title: "Pawsitive Vet Care",
-			tech: [SiReact, SiTypescript, SiCss3, SiFirebase],
-			link: "https://github.com/Alexandra2888/PawSitive-Care-Vet",
-			cover: "/pawsitive.png",
-			background: "bg-indigo-500",
-		},
-		{
-			title: "Focus App",
-			tech: [ SiReact],
-			link: "https://github.com/Alexandra2888/Focus-Time",
-			cover: "/focus.png",
-			background: "bg-green-500",
-		},
-		{
-			title: "eShop",
-			tech: [ SiReact, SiNodedotjs, SiMongodb],
-			link: "https://github.com/Alexandra2888/eShop",
-			cover: "/eshop.png",
-			background: "bg-orange-500",
-		},
-		{
-			title: "Krello",
-			tech: [ SiNextdotjs, SiTypescript, SiTailwindcss, SiPrisma],
-			link: "https://github.com/Alexandra2888/krello",
-			cover: "/krello.png",
-			background: "bg-purple-500",
-		},
-		{
-			title: "WatchFlix",
-			tech: [ SiNextdotjs, SiTypescript, SiTailwindcss, SiPrisma, SiMongodb],
-			link: "https://github.com/Alexandra2888/watchflix",
-			cover: "/watchflix.png",
-			background: "bg-yellow-500",
-		},
-		
-	];
+    {
+      title: "Pawsitive Vet Care",
+      tech: [SiReact, SiTypescript, SiCss3, SiFirebase],
+      link: "https://github.com/Alexandra2888/PawSitive-Care-Vet",
+      cover: "/pawsitive.png",
+      background: "bg-indigo-500",
+    },
+    {
+      title: "Focus App",
+      tech: [SiReact],
+      link: "https://github.com/Alexandra2888/Focus-Time",
+      cover: "/focus.png",
+      background: "bg-green-500",
+    },
+    {
+      title: "eShop",
+      tech: [SiReact, SiNodedotjs, SiMongodb],
+      link: "https://github.com/Alexandra2888/eShop",
+      cover: "/eshop.png",
+      background: "bg-orange-500",
+    },
+    {
+      title: "Krello",
+      tech: [SiNextdotjs, SiTypescript, SiTailwindcss, SiPrisma],
+      link: "https://github.com/Alexandra2888/krello",
+      cover: "/krello.png",
+      background: "bg-purple-500",
+    },
+    {
+      title: "WatchFlix",
+      tech: [SiNextdotjs, SiTypescript, SiTailwindcss, SiPrisma, SiMongodb],
+      link: "https://github.com/Alexandra2888/watchflix",
+      cover: "/watchflix.png",
+      background: "bg-yellow-500",
+    },
+    {
+      title: "IntelliFlow",
+      tech: [SiNextdotjs, SiTypescript, SiTailwindcss, SiOpenai],
+      link: "https://github.com/Alexandra2888/IntelliFlow",
+      cover: "/saas-ai.png",
+      background: "bg-pink-500",
+    },
+  ];
 
 	return (
 		<div className="py-10 p-5 sm:p-0">
