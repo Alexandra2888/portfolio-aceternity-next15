@@ -63,7 +63,8 @@ Push to the branch: git push origin feature-name.
 Open a pull request.
 ```
 
-📞 Contact
+## 📞 Contact
+
 Feel free to reach out to me via email at moldovan.alexandra28@gmail.com.com.
 
 
