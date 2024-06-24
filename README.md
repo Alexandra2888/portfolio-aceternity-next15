@@ -15,8 +15,6 @@ https://main--portfolio-alexandram28.netlify.app/
 Here is a demo of the project:
 
 
-
-
 [<img src="https://github.com/Alexandra2888/portfolio-aceternity-next14/blob/main/portfolio.png" width="50%">](https://player.vimeo.com/video/950562191?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479 )
 
 ## 📋 Table of Contents
@@ -24,7 +22,6 @@ Here is a demo of the project:
 - [Features](#-features)
 - [Installation](#-installation)
 - [Usage](#-usage)
-- [Contributing](#-contributing)
 - [Contact](#-contact)
 
 ## ✨ Features
