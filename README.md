@@ -7,15 +7,10 @@
 
 Welcome to my portfolio project! This is a modern web application built to showcase my skills and projects. It is built with Next.js 14, Aceternity & Tailwind styling, Tailwind CSS for styling, and TypeScript for type safety.
 
+[<img src="https://github.com/Alexandra2888/portfolio-aceternity-next14/blob/main/portfolio.png" width="50%">](https://player.vimeo.com/video/950562191?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479 )
+
 ## Live
 https://main--portfolio-alexandram28.netlify.app/
-
-## 📹 Demo Video
-
-Here is a demo of the project:
-
-
-[<img src="https://github.com/Alexandra2888/portfolio-aceternity-next14/blob/main/portfolio.png" width="50%">](https://player.vimeo.com/video/950562191?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479 )
 
 ## 📋 Table of Contents
 
