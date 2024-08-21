@@ -19,6 +19,7 @@ import { cn } from "@/lib/utils";
 import { DirectionAwareHover } from "@/components/ui/direction-aware-hover";
 
 export default function Projects() {
+
   const projects = [
     {
       title: "Pawsitive Vet Care",
