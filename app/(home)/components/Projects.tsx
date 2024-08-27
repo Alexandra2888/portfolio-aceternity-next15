@@ -70,13 +70,13 @@ export default function Projects() {
       cover: "/object-detection2.png",
       background: "bg-blue-500",
     },
-    {
-      title: "Component Craft-React UI Library (in progress)",
-      tech: [SiNextdotjs, SiTailwindcss, SiStorybook],
-      link: "https://github.com/Alexandra2888/ComponentCraft",
-      cover: "/component-craft.png",
-      background: "bg-yellow-900",
-    },
+    // {
+    //   title: "Component Craft-React UI Library (in progress)",
+    //   tech: [SiNextdotjs, SiTailwindcss, SiStorybook],
+    //   link: "https://github.com/Alexandra2888/ComponentCraft",
+    //   cover: "/component-craft.png",
+    //   background: "bg-yellow-900",
+    // },
     {
       title: "Audit-AI (audit for smart contracts)",
       tech: [SiNextdotjs, SiTailwindcss, SiOpenai],
