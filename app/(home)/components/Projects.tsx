@@ -80,7 +80,7 @@ export default function Projects() {
     {
       title: "Audit-AI (audit for smart contracts)",
       tech: [SiNextdotjs, SiTailwindcss, SiOpenai],
-      link: "https://github.com/Alexandra2888/ComponentCraft",
+      link: "https://audit-qpatwy37u-alexandra2888s-projects.vercel.app",
       cover: "/audit-ai.png",
       background: "bg-orange-700",
     },
