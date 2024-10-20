@@ -23,7 +23,7 @@ export const projects = [
     deploymentLink: "https://paw-sitive-care-vet.vercel.app/",
     description: "Pawsitive Care Vet is a  veterinary management system built with React and TypeScript. This modern web application leverages Firebase for backend services, React Router for seamless navigation, and integrates interactive maps using React Leaflet. With features like appointment scheduling and a user-friendly interface, Pawsitive Care Vet streamlines veterinary clinic operations. The project showcases advanced front-end development practices, including responsive design with Sass and state management.",
     cover:
-      "https://res.cloudinary.com/dnpjmrdik/image/upload/v1729419670/mobile_g7h032.png",
+      "https://res.cloudinary.com/dnpjmrdik/image/upload/v1729412410/portfolio-next-aceternity/pawsitive_geskqt.png",
     background: "bg-indigo-500",
     laptopImage: "https://res.cloudinary.com/dnpjmrdik/image/upload/v1729417908/portfolio-next-aceternity/Device_-_Macbook_Pro6_j1hjdl.png",
   },
@@ -35,7 +35,7 @@ export const projects = [
     deploymentLink: "",
     description: "Focus Time is a productivity app developed with React Native and Expo, designed to boost time management and task focus. This mobile application implements the Pomodoro Technique with customizable timers.",
     cover:
-      "https://res.cloudinary.com/dnpjmrdik/image/upload/v1729412403/portfolio-next-aceternity/focus_rumvdw.png",
+      "https://res.cloudinary.com/dnpjmrdik/image/upload/v1729419670/mobile_g7h032.png",
     background: "bg-green-500",
     laptopImage: "https://res.cloudinary.com/dnpjmrdik/image/upload/v1729419670/mobile_g7h032.png",
   },
@@ -47,7 +47,7 @@ export const projects = [
       "https://res.cloudinary.com/dnpjmrdik/image/upload/v1729412396/portfolio-next-aceternity/eshop_ynzrcg.png",
     deploymentLink: "",
     description: "eShop is a full-stack e-commerce platform built using the MERN (MongoDB, Express, React, Node.js) stack. This project demonstrates proficiency in developing a complete, production-ready web application with a focus on performance and real-time user experience. Key features include secure user authentication, a dynamic product catalog with search and filtering capabilities, an intuitive shopping cart and checkout system, integrated payment processing, and a responsive design optimized for all devices. The admin dashboard for managing products and orders showcases backend API development and database management skills. The frontend, developed with React and Redux, utilizes TailwindCSS for styling and Vite for fast builds, highlighting modern frontend development practices. The backend, powered by Node.js and Express, integrates with MongoDB using Mongoose for efficient data modeling. Security measures implemented through Helmet, CORS, and bcryptjs underscore a commitment to building robust, secure web applications. This project exemplifies the ability to create scalable, full-stack JavaScript applications, manage state effectively, handle real-time data updates, and implement e-commerce functionalities from user authentication to order processing.",
-    cover: "https://res.cloudinary.com/dnpjmrdik/image/upload/v1729412396/portfolio-next-aceternity/eshop_ynzrcg.png",
+    cover: "https://res.cloudinary.com/dnpjmrdik/image/upload/v1729418899/Device_-_Macbook_Pro4_alqlfl.png",
     background: "bg-orange-500",
     laptopImage: "https://res.cloudinary.com/dnpjmrdik/image/upload/v1729418899/Device_-_Macbook_Pro4_alqlfl.png",
   },
