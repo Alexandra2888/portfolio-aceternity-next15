@@ -113,4 +113,16 @@ export const projects = [
     background: "bg-orange-700",
     laptopImage: "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/Device_-_Macbook_Pro3_mw7qct_t1eles.png",
   },
+  {
+    id: "8",
+    title: "Fashion Vogue AI (in progress)",
+    tech: [SiNextdotjs, SiTailwindcss, SiOpenai],
+    githubLink: "https://github.com/Alexandra2888/VogueLens-AI",
+    deploymentLink: "https://vogue-lens-ai.vercel.app/",
+    description: "Fashion Vogue AI is a personal AI stylist",
+    cover:
+        "https://res.cloudinary.com/dblgunawk/image/upload/v1732731983/fasion_evhsqt.png",
+    background: "bg-pink-700",
+    laptopImage: "https://res.cloudinary.com/dblgunawk/image/upload/v1732731983/fasion_evhsqt.png",
+  },
 ];
