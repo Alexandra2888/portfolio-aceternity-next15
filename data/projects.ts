@@ -63,13 +63,6 @@ export const projects = [
     background: "bg-purple-500",
     laptopImage: "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/Device_-_Macbook_Pro2_cf5gfe_je7rfx.png",
   },
-  // {
-  //   title: "WatchFlix",
-  //   tech: [SiNextdotjs, SiTypescript, SiTailwindcss, SiPrisma, SiMongodb],
-  //   link: "https://github.com/Alexandra2888/watchflix",
-  //   cover: "/watchflix2.png",
-  //   background: "bg-yellow-500",
-  // },
   {
     id: "5",
     title: "IntelliFlow",
@@ -94,13 +87,6 @@ export const projects = [
     background: "bg-blue-500",
     laptopImage: "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/Device_-_Macbook_Pro5_zoxynj_anhfis.png",
   },
-  // {
-  //   title: "Component Craft-React UI Library (in progress)",
-  //   tech: [SiNextdotjs, SiTailwindcss, SiStorybook],
-  //   link: "https://github.com/Alexandra2888/ComponentCraft",
-  //   cover: "/component-craft.png",
-  //   background: "bg-yellow-900",
-  // },
   {
     id: "7",
     title: "Audit-AI (audit for smart contracts)",
@@ -124,5 +110,17 @@ export const projects = [
         "https://res.cloudinary.com/dblgunawk/image/upload/v1732731983/fasion_evhsqt.png",
     background: "bg-pink-700",
     laptopImage: "https://res.cloudinary.com/dblgunawk/image/upload/v1732731983/fasion_evhsqt.png",
+  },
+  {
+    id: "9",
+    title: "octofy",
+    tech: [SiNextdotjs, SiTailwindcss, SiOpenai],
+    githubLink: "",
+    deploymentLink: "https://octofy.ai/",
+    description: "The right AI for every task",
+    cover:
+        "/octofy.png",
+    background: "bg-green-700",
+    laptopImage: "/octofy.png",
   },
 ];

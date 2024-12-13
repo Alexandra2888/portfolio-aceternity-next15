@@ -11,16 +11,15 @@ export default function Projects() {
         text="Projects 🎨"
         className="flex flex-col items-center justify-center"
       />
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 pt-20">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 pt-20 max-w-7xl">
         {projects.map((project) => (
           <Link href={`/${project.id}`} key={project.id}>
             <div
               className={cn(
-                "p-5 rounded-md",
+                "p-5 rounded-md h-[300px] text-white",
                 project.background,
-                "flex flex-col justify-between"
+                "flex flex-col justify-between hover:scale-105 transition-all"
               )}
-              style={{ height: "300px" }}
             >
               <DirectionAwareHover
                 imageUrl={project.cover}
