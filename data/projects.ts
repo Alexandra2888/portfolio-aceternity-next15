@@ -1,4 +1,3 @@
-import React from "react";
 import {
   SiCss3,
   SiFirebase,
@@ -8,7 +7,6 @@ import {
   SiOpenai,
   SiPrisma,
   SiReact,
-  SiStorybook,
   SiTailwindcss,
   SiTensorflow,
   SiTypescript,
@@ -21,11 +19,9 @@ export const projects = [
     tech: [SiReact, SiTypescript, SiCss3, SiFirebase],
     githubLink: "https://github.com/Alexandra2888/PawSitive-Care-Vet",
     deploymentLink: "https://paw-sitive-care-vet.vercel.app/",
-    description: "Pawsitive Care Vet is a  veterinary management system built with React and TypeScript. This modern web application leverages Firebase for backend services, React Router for seamless navigation, and integrates interactive maps using React Leaflet. With features like appointment scheduling and a user-friendly interface, Pawsitive Care Vet streamlines veterinary clinic operations. The project showcases advanced front-end development practices, including responsive design with Sass and state management.",
-    cover:
-      "https://res.cloudinary.com/dblgunawk/image/upload/v1732728818/pawsitive_geskqt_c8vq8o.png",
+    description: "Pawsitive Care Vet is a veterinary management system built with React and TypeScript. This modern web application leverages Firebase for backend services, React Router for seamless navigation, and integrates interactive maps using React Leaflet. With features like appointment scheduling and a user-friendly interface, Pawsitive Care Vet streamlines veterinary clinic operations. The project showcases advanced front-end development practices, including responsive design with Sass and state management.",
+    cover: "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/Device_-_Macbook_Pro6_j1hjdl_sbcgds.png",
     background: "bg-indigo-500",
-    laptopImage: "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/Device_-_Macbook_Pro6_j1hjdl_sbcgds.png",
   },
   {
     id: "2",
@@ -34,22 +30,18 @@ export const projects = [
     githubLink: "https://github.com/Alexandra2888/Focus-Time",
     deploymentLink: "",
     description: "Focus Time is a productivity app developed with React Native and Expo, designed to boost time management and task focus. This mobile application implements the Pomodoro Technique with customizable timers.",
-    cover:
-      "https://res.cloudinary.com/dblgunawk/image/upload/v1732728818/mobile_g7h032_srk3ih.png",
+    cover: "https://res.cloudinary.com/dblgunawk/image/upload/v1732728818/mobile_g7h032_srk3ih.png",
     background: "bg-green-500",
-    laptopImage: "https://res.cloudinary.com/dblgunawk/image/upload/v1732728818/mobile_g7h032_srk3ih.png",
   },
   {
     id: "3",
     title: "eShop",
     tech: [SiReact, SiNodedotjs, SiMongodb],
-    githubLink:
-      "https://res.cloudinary.com/dnpjmrdik/image/upload/v1729412396/portfolio-next-aceternity/eshop_ynzrcg.png",
+    githubLink: "https://github.com/Alexandra2888/eshop",
     deploymentLink: "",
-    description: "eShop is a full-stack e-commerce platform built using the MERN (MongoDB, Express, React, Node.js) stack. This project demonstrates proficiency in developing a complete, production-ready web application with a focus on performance and real-time user experience. Key features include secure user authentication, a dynamic product catalog with search and filtering capabilities, an intuitive shopping cart and checkout system, integrated payment processing, and a responsive design optimized for all devices. The admin dashboard for managing products and orders showcases backend API development and database management skills. The frontend, developed with React and Redux, utilizes TailwindCSS for styling and Vite for fast builds, highlighting modern frontend development practices. The backend, powered by Node.js and Express, integrates with MongoDB using Mongoose for efficient data modeling. Security measures implemented through Helmet, CORS, and bcryptjs underscore a commitment to building robust, secure web applications. This project exemplifies the ability to create scalable, full-stack JavaScript applications, manage state effectively, handle real-time data updates, and implement e-commerce functionalities from user authentication to order processing.",
-    cover: "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/eshop_ynzrcg_equf7c.png",
-    background: "bg-orange-500",
-    laptopImage: "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/eshop_ynzrcg_equf7c.png",
+    description: "eShop is a full-stack e-commerce platform built using the MERN (MongoDB, Express, React, Node.js) stack. This project demonstrates proficiency in developing a complete, production-ready web application with a focus on performance and real-time user experience. Key features include secure user authentication, a dynamic product catalog with search and filtering capabilities, an intuitive shopping cart and checkout system, integrated payment processing, and a responsive design optimized for all devices.",
+    cover: "https://res.cloudinary.com/dblgunawk/image/upload/v1734959572/e-shop_u2gsay.png",
+    background: "bg-blue-500",
   },
   {
     id: "4",
@@ -57,11 +49,9 @@ export const projects = [
     tech: [SiNextdotjs, SiTypescript, SiTailwindcss, SiPrisma],
     githubLink: "https://github.com/Alexandra2888/krello",
     deploymentLink: "https://krello-beta.vercel.app/",
-    description: "Krello is a sophisticated Trello clone that showcases advanced web development skills using modern technologies. Built with Next.js and React, this project demonstrates proficiency in creating complex, interactive user interfaces with drag-and-drop functionality for intuitive task management. Key features include robust user authentication via Clerk, real-time updates, and seamless integration with third-party services. The application leverages Prisma for efficient database management, React Query for state management and data fetching, and Zustand for global state handling. The UI is crafted using a combination of Radix UI components and Tailwind CSS, highlighting expertise in creating responsive, accessible, and customizable user interfaces. Integration with Unsplash API adds dynamic visual elements to enhance user experience. This project exemplifies skills in full-stack development, from server-side rendering with Next.js to client-side interactivity with React. It showcases the ability to work with modern web technologies, implement complex state management solutions, and create performant, scalable web applications with a focus on user experience and functionality.",
-    cover:
-      "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/krello_aakwyi_r018rm.png",
+    description: "Krello is a sophisticated Trello clone that showcases advanced web development skills using modern technologies. Built with Next.js and React, this project demonstrates proficiency in creating complex, interactive user interfaces with drag-and-drop functionality for intuitive task management. Key features include robust user authentication via Clerk, real-time updates, and seamless integration with third-party services.",
+    cover: "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/Device_-_Macbook_Pro2_cf5gfe_je7rfx.png",
     background: "bg-purple-500",
-    laptopImage: "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/Device_-_Macbook_Pro2_cf5gfe_je7rfx.png",
   },
   {
     id: "5",
@@ -69,11 +59,9 @@ export const projects = [
     tech: [SiNextdotjs, SiTypescript, SiTailwindcss, SiOpenai],
     githubLink: "https://github.com/Alexandra2888/IntelliFlow",
     deploymentLink: "https://intelli-flow-4ailj1vg7-alexandra2888s-projects.vercel.app/",
-    description: "IntelliFlow is a Next.js-based platform that integrates OpenAI and Replicate APIs to offer AI-driven content generation. This project showcases advanced web development skills, featuring AI-powered image, video, code, and conversation generation. Built with React, TypeScript, and Tailwind CSS, IntelliFlow demonstrates proficiency in creating modern, full-stack applications that leverage cutting-edge AI technologies for practical, user-focused solutions.",
-    cover:
-      "https://res.cloudinary.com/dblgunawk/image/upload/v1732728818/saas-ai_g8bz4l_x43awi.png",
+    description: "IntelliFlow is a Next.js-based platform that integrates OpenAI and Replicate APIs to offer AI-driven content generation. This project showcases advanced web development skills, featuring AI-powered image, video, code, and conversation generation.",
+    cover: "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/Device_-_Macbook_Pro2_cf5gfe_je7rfx.png",
     background: "bg-pink-500",
-    laptopImage: "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/Device_-_Macbook_Pro1_spsdlt_sunmam.png",
   },
   {
     id: "6",
@@ -81,46 +69,38 @@ export const projects = [
     tech: [SiNextdotjs, SiTailwindcss, SiTensorflow],
     githubLink: "https://github.com/Alexandra2888/Object-Detection",
     deploymentLink: "https://object-detection-zeta-flax.vercel.app/",
-    description: "Object Detection App is a real-time web application built with Next.js and TensorFlow.js. It uses the COCO-SSD model to detect and classify objects from a live webcam feed. The app showcases skills in integrating machine learning models with modern web technologies, featuring a responsive UI and efficient rendering of detection results. This project demonstrates proficiency in React, TensorFlow.js, and real-time video processing in the browser.",
-    cover:
-      "https://res.cloudinary.com/dblgunawk/image/upload/v1732728818/object-detection2_ttakyq_xz4buj.png",
+    description: "Object Detection App is a real-time web application built with Next.js and TensorFlow.js. It uses the COCO-SSD model to detect and classify objects from a live webcam feed.",
+    cover: "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/Device_-_Macbook_Pro5_zoxynj_anhfis.png",
     background: "bg-blue-500",
-    laptopImage: "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/Device_-_Macbook_Pro5_zoxynj_anhfis.png",
   },
   {
     id: "7",
-    title: "Audit-AI (audit for smart contracts)",
+    title: "Audit-AI",
     tech: [SiNextdotjs, SiTailwindcss, SiOpenai],
-    githubLink: "https://audit-qpatwy37u-alexandra2888s-projects.vercel.app",
+    githubLink: "https://github.com/Alexandra2888/Audit-AI",
     deploymentLink: "https://audit-ai.vercel.app/",
-    description: "Audit-AI is an advanced smart contract auditing tool built with Next.js and powered by OpenAI. It offers both a web application and a CLI tool for automated security analysis of blockchain smart contracts. The project demonstrates expertise in AI integration, blockchain technology, and full-stack development, providing developers with efficient, AI-driven contract verification to enhance blockchain security. Audit-AI showcases skills in creating practical, developer-focused tools that bridge AI and blockchain technologies.",
-    cover:
-      "https://res.cloudinary.com/dblgunawk/image/upload/v1732728818/audit-ai_gki7en_meuxxt.png",
+    description: "Audit-AI is an advanced smart contract auditing tool built with Next.js and powered by OpenAI. It offers both a web application and a CLI tool for automated security analysis of blockchain smart contracts.",
+    cover: "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/Device_-_Macbook_Pro3_mw7qct_t1eles.png",
     background: "bg-orange-700",
-    laptopImage: "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/Device_-_Macbook_Pro3_mw7qct_t1eles.png",
   },
   {
     id: "8",
-    title: "Fashion Vogue AI (in progress)",
+    title: "Fashion Vogue AI",
     tech: [SiNextdotjs, SiTailwindcss, SiOpenai],
     githubLink: "https://github.com/Alexandra2888/VogueLens-AI",
     deploymentLink: "https://vogue-lens-ai.vercel.app/",
     description: "Fashion Vogue AI is a personal AI stylist",
-    cover:
-        "https://res.cloudinary.com/dblgunawk/image/upload/v1732731983/fasion_evhsqt.png",
+    cover: "https://res.cloudinary.com/dblgunawk/image/upload/v1734958595/fashion-ai_ayrhox.png",
     background: "bg-pink-700",
-    laptopImage: "https://res.cloudinary.com/dblgunawk/image/upload/v1732731983/fasion_evhsqt.png",
   },
   {
     id: "9",
-    title: "octofy",
+    title: "Octofy",
     tech: [SiNextdotjs, SiTailwindcss, SiOpenai],
     githubLink: "",
     deploymentLink: "https://octofy.ai/",
     description: "The right AI for every task",
-    cover:
-        "/octofy.png",
+    cover: "https://res.cloudinary.com/dblgunawk/image/upload/v1734958739/octofy_hl0fv3.png",
     background: "bg-green-700",
-    laptopImage: "/octofy.png",
-  },
+  }
 ];
