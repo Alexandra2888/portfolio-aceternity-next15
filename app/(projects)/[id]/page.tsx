@@ -18,7 +18,7 @@ export default function ProjectDetail({ params }: { params: { id: string } }) {
           <div className="lg:w-1/2">
             <div className="relative w-full aspect-[16/10] rounded-lg overflow-hidden shadow-xl mb-4">
               <Image
-                src={project.laptopImage}
+                src={project.cover}
                 alt={project.title}
                 layout="fill"
                 objectFit="cover"
