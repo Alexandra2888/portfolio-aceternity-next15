@@ -60,8 +60,7 @@ const projects = [
     title: "IntelliFlow",
     tech: [SiNextdotjs, SiTypescript, SiTailwindcss, SiOpenai],
     githubLink: "https://github.com/Alexandra2888/IntelliFlow",
-    deploymentLink:
-      "https://intelli-flow-4ailj1vg7-alexandra2888s-projects.vercel.app/",
+    deploymentLink: "https://intelli-flow-lemon.vercel.app/dashboard",
     description:
       "IntelliFlow is a Next.js-based platform that integrates OpenAI and Replicate APIs to offer AI-driven content generation. This project showcases advanced web development skills, featuring AI-powered image, video, code, and conversation generation.",
     cover:
