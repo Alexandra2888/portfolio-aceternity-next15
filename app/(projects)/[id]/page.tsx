@@ -6,7 +6,8 @@ import { BackgroundGradient } from "@/components/ui/background-gradient";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Eye, Github } from "lucide-react";
 
-export default function ProjectDetail({ params }: { params: { id: string } }) {
+export default async function ProjectDetail(props: { params: Promise<{ id: string }> }) {
+  const params = await props.params;
   const project = projects.find((p) => p.id === params.id);
 
   if (!project) return <div>Project not found</div>;
