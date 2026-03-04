@@ -19,8 +19,10 @@ export const projects = [
     tech: [SiReact, SiTypescript, SiCss3, SiFirebase],
     githubLink: "https://github.com/Alexandra2888/PawSitive-Care-Vet",
     deploymentLink: "https://paw-sitive-care-vet.vercel.app/",
-    description: "Pawsitive Care Vet is a veterinary management system built with React and TypeScript. This modern web application leverages Firebase for backend services, React Router for seamless navigation, and integrates interactive maps using React Leaflet. With features like appointment scheduling and a user-friendly interface, Pawsitive Care Vet streamlines veterinary clinic operations. The project showcases advanced front-end development practices, including responsive design with Sass and state management.",
-    cover: "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/Device_-_Macbook_Pro6_j1hjdl_sbcgds.png",
+    description:
+      "Pawsitive Care Vet is a veterinary management system built with React and TypeScript. This modern web application leverages Firebase for backend services, React Router for seamless navigation, and integrates interactive maps using React Leaflet. With features like appointment scheduling and a user-friendly interface, Pawsitive Care Vet streamlines veterinary clinic operations. The project showcases advanced front-end development practices, including responsive design with Sass and state management.",
+    cover:
+      "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/Device_-_Macbook_Pro6_j1hjdl_sbcgds.png",
     background: "bg-indigo-500",
   },
   {
@@ -29,8 +31,10 @@ export const projects = [
     tech: [SiReact],
     githubLink: "https://github.com/Alexandra2888/Focus-Time",
     deploymentLink: "",
-    description: "Focus Time is a productivity app developed with React Native and Expo, designed to boost time management and task focus. This mobile application implements the Pomodoro Technique with customizable timers.",
-    cover: "https://res.cloudinary.com/dblgunawk/image/upload/v1732728818/mobile_g7h032_srk3ih.png",
+    description:
+      "Focus Time is a productivity app developed with React Native and Expo, designed to boost time management and task focus. This mobile application implements the Pomodoro Technique with customizable timers.",
+    cover:
+      "https://res.cloudinary.com/dblgunawk/image/upload/v1732728818/mobile_g7h032_srk3ih.png",
     background: "bg-green-500",
   },
   {
@@ -39,8 +43,10 @@ export const projects = [
     tech: [SiReact, SiNodedotjs, SiMongodb],
     githubLink: "https://github.com/Alexandra2888/eshop",
     deploymentLink: "",
-    description: "eShop is a full-stack e-commerce platform built using the MERN (MongoDB, Express, React, Node.js) stack. This project demonstrates proficiency in developing a complete, production-ready web application with a focus on performance and real-time user experience. Key features include secure user authentication, a dynamic product catalog with search and filtering capabilities, an intuitive shopping cart and checkout system, integrated payment processing, and a responsive design optimized for all devices.",
-    cover: "https://res.cloudinary.com/dblgunawk/image/upload/v1734959572/e-shop_u2gsay.png",
+    description:
+      "eShop is a full-stack e-commerce platform built using the MERN (MongoDB, Express, React, Node.js) stack. This project demonstrates proficiency in developing a complete, production-ready web application with a focus on performance and real-time user experience. Key features include secure user authentication, a dynamic product catalog with search and filtering capabilities, an intuitive shopping cart and checkout system, integrated payment processing, and a responsive design optimized for all devices.",
+    cover:
+      "https://res.cloudinary.com/dblgunawk/image/upload/v1734959572/e-shop_u2gsay.png",
     background: "bg-blue-500",
   },
   {
@@ -49,18 +55,35 @@ export const projects = [
     tech: [SiNextdotjs, SiTypescript, SiTailwindcss, SiPrisma],
     githubLink: "https://github.com/Alexandra2888/krello",
     deploymentLink: "https://krello-beta.vercel.app/",
-    description: "Krello is a sophisticated Trello clone that showcases advanced web development skills using modern technologies. Built with Next.js and React, this project demonstrates proficiency in creating complex, interactive user interfaces with drag-and-drop functionality for intuitive task management. Key features include robust user authentication via Clerk, real-time updates, and seamless integration with third-party services.",
-    cover: "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/Device_-_Macbook_Pro2_cf5gfe_je7rfx.png",
+    description:
+      "Krello is a sophisticated Trello clone that showcases advanced web development skills using modern technologies. Built with Next.js and React, this project demonstrates proficiency in creating complex, interactive user interfaces with drag-and-drop functionality for intuitive task management. Key features include robust user authentication via Clerk, real-time updates, and seamless integration with third-party services.",
+    cover:
+      "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/Device_-_Macbook_Pro2_cf5gfe_je7rfx.png",
     background: "bg-purple-500",
+  },
+  {
+    id: "10",
+    title: "AI Builder",
+    tech: [SiNextdotjs, SiTypescript, SiTailwindcss, SiOpenai],
+    githubLink: "https://github.com/Alexandra2888/Builder-PoC",
+    deploymentLink: "https://builder-po-c.vercel.app/",
+    description:
+      "An AI-powered application builder that transforms ideas into fully functional Next.js applications. Built with Next.js 15, TypeScript, Tailwind CSS, shadcn/ui, and powered by LangChain + Anthropic Claude. Features include AI design generation, live preview, Monaco code editor, and project export.",
+    cover:
+      "https://res.cloudinary.com/dblgunawk/image/upload/v1772641019/ai-builder_jq4jxw.png",
+    background: "bg-cyan-700",
   },
   {
     id: "5",
     title: "IntelliFlow",
     tech: [SiNextdotjs, SiTypescript, SiTailwindcss, SiOpenai],
     githubLink: "https://github.com/Alexandra2888/IntelliFlow",
-    deploymentLink: "https://intelli-flow-4ailj1vg7-alexandra2888s-projects.vercel.app/",
-    description: "IntelliFlow is a Next.js-based platform that integrates OpenAI and Replicate APIs to offer AI-driven content generation. This project showcases advanced web development skills, featuring AI-powered image, video, code, and conversation generation.",
-    cover: "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/Device_-_Macbook_Pro2_cf5gfe_je7rfx.png",
+    deploymentLink:
+      "https://intelli-flow-4ailj1vg7-alexandra2888s-projects.vercel.app/",
+    description:
+      "IntelliFlow is a Next.js-based platform that integrates OpenAI and Replicate APIs to offer AI-driven content generation. This project showcases advanced web development skills, featuring AI-powered image, video, code, and conversation generation.",
+    cover:
+      "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/Device_-_Macbook_Pro2_cf5gfe_je7rfx.png",
     background: "bg-pink-500",
   },
   {
@@ -69,8 +92,10 @@ export const projects = [
     tech: [SiNextdotjs, SiTailwindcss, SiTensorflow],
     githubLink: "https://github.com/Alexandra2888/Object-Detection",
     deploymentLink: "https://object-detection-zeta-flax.vercel.app/",
-    description: "Object Detection App is a real-time web application built with Next.js and TensorFlow.js. It uses the COCO-SSD model to detect and classify objects from a live webcam feed.",
-    cover: "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/Device_-_Macbook_Pro5_zoxynj_anhfis.png",
+    description:
+      "Object Detection App is a real-time web application built with Next.js and TensorFlow.js. It uses the COCO-SSD model to detect and classify objects from a live webcam feed.",
+    cover:
+      "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/Device_-_Macbook_Pro5_zoxynj_anhfis.png",
     background: "bg-blue-500",
   },
   {
@@ -79,8 +104,10 @@ export const projects = [
     tech: [SiNextdotjs, SiTailwindcss, SiOpenai],
     githubLink: "https://github.com/Alexandra2888/Audit-AI",
     deploymentLink: "https://audit-ai.vercel.app/",
-    description: "Audit-AI is an advanced smart contract auditing tool built with Next.js and powered by OpenAI. It offers both a web application and a CLI tool for automated security analysis of blockchain smart contracts.",
-    cover: "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/Device_-_Macbook_Pro3_mw7qct_t1eles.png",
+    description:
+      "Audit-AI is an advanced smart contract auditing tool built with Next.js and powered by OpenAI. It offers both a web application and a CLI tool for automated security analysis of blockchain smart contracts.",
+    cover:
+      "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/Device_-_Macbook_Pro3_mw7qct_t1eles.png",
     background: "bg-orange-700",
   },
   {
@@ -90,7 +117,8 @@ export const projects = [
     githubLink: "https://github.com/Alexandra2888/VogueLens-AI",
     deploymentLink: "https://vogue-lens-ai.vercel.app/",
     description: "Fashion Vogue AI is a personal AI stylist",
-    cover: "https://res.cloudinary.com/dblgunawk/image/upload/v1734958595/fashion-ai_ayrhox.png",
+    cover:
+      "https://res.cloudinary.com/dblgunawk/image/upload/v1734958595/fashion-ai_ayrhox.png",
     background: "bg-pink-700",
   },
   {
@@ -100,7 +128,8 @@ export const projects = [
     githubLink: "",
     deploymentLink: "https://octofy.ai/",
     description: "The right AI for every task",
-    cover: "https://res.cloudinary.com/dblgunawk/image/upload/v1734958739/octofy_hl0fv3.png",
+    cover:
+      "https://res.cloudinary.com/dblgunawk/image/upload/v1734958739/octofy_hl0fv3.png",
     background: "bg-green-700",
-  }
+  },
 ];

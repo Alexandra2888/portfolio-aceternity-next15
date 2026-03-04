@@ -69,6 +69,18 @@ export default function Projects() {
     //   background: "bg-purple-500",
     // },
     {
+      id: "10",
+      title: "AI Builder",
+      tech: [SiNextdotjs, SiTypescript, SiTailwindcss, SiOpenai],
+      githubLink: "https://github.com/Alexandra2888/Builder-PoC",
+      deploymentLink: "https://builder-po-c.vercel.app/",
+      description:
+        "An AI-powered application builder that transforms ideas into fully functional Next.js applications. Built with Next.js 15, TypeScript, Tailwind CSS, shadcn/ui, and powered by LangChain + Anthropic Claude. Features include AI design generation, live preview, Monaco code editor, and project export.",
+      cover:
+        "https://res.cloudinary.com/dblgunawk/image/upload/v1772641019/ai-builder_jq4jxw.png",
+      background: "bg-cyan-700",
+    },
+    {
       id: "5",
       title: "IntelliFlow",
       tech: [SiNextdotjs, SiTypescript, SiTailwindcss, SiOpenai],
