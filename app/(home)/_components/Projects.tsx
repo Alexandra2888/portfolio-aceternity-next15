@@ -13,6 +13,7 @@ import {
   SiReact,
   SiReactquery,
   SiSupabase,
+  SiPython,
   SiTailwindcss,
   SiTensorflow,
   SiTypescript,
@@ -68,6 +69,18 @@ export default function Projects() {
     //     "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/Device_-_Macbook_Pro2_cf5gfe_je7rfx.png",
     //   background: "bg-purple-500",
     // },
+    {
+      id: "11",
+      title: "Website Analyzer",
+      tech: [SiNextdotjs, SiPython, SiTypescript, SiTailwindcss],
+      githubLink: "https://github.com/Alexandra2888/website-analyzer",
+      deploymentLink: "https://website-analyze.vercel.app/",
+      description:
+        "A comprehensive website analysis tool built with Next.js and Python. Provides detailed performance audits, SEO analysis, accessibility checks, and actionable insights to help optimize any website.",
+      cover:
+        "https://res.cloudinary.com/dblgunawk/image/upload/v1772641457/analyzer_au0jbq.png",
+      background: "bg-emerald-700",
+    },
     {
       id: "10",
       title: "AI Builder",
@@ -153,7 +166,7 @@ export default function Projects() {
               <div className={cn("p-5 rounded-md", project.background)}>
                 <DirectionAwareHover
                   imageUrl={project.cover}
-                  className="w-full space-y-5 cursor-pointer"
+                  className="w-full h-52 sm:h-72 space-y-5 cursor-pointer"
                 >
                   <div className=" space-y-5">
                     <h1 className="text-2xl font-bold">{project.title}</h1>

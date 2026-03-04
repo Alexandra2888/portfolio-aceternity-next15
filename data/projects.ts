@@ -6,6 +6,7 @@ import {
   SiNodedotjs,
   SiOpenai,
   SiPrisma,
+  SiPython,
   SiReact,
   SiTailwindcss,
   SiTensorflow,
@@ -60,6 +61,18 @@ export const projects = [
     cover:
       "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/Device_-_Macbook_Pro2_cf5gfe_je7rfx.png",
     background: "bg-purple-500",
+  },
+  {
+    id: "11",
+    title: "Website Analyzer",
+    tech: [SiNextdotjs, SiPython, SiTypescript, SiTailwindcss],
+    githubLink: "https://github.com/Alexandra2888/website-analyzer",
+    deploymentLink: "https://website-analyze.vercel.app/",
+    description:
+      "A comprehensive website analysis tool built with Next.js and Python. Provides detailed performance audits, SEO analysis, accessibility checks, and actionable insights to help optimize any website.",
+    cover:
+      "https://res.cloudinary.com/dblgunawk/image/upload/v1772641457/analyzer_au0jbq.png",
+    background: "bg-emerald-700",
   },
   {
     id: "10",
