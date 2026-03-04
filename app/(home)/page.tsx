@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./_components/Navbar";
 import HeroSection from "./_components/HeroSection";
+import AboutMe from "./_components/AboutMe";
 import Skills from "./_components/Skills";
 import Projects from "./_components/Projects";
 import Footer from "./_components/Footer";
@@ -16,6 +17,7 @@ export default function page() {
         <div className=" h-10 xl:h-32 bg-gradient-to-t from-black absolute -bottom-5 left-0 xl:bottom-0 w-full"></div>
       </div>
       <div className=" max-w-7xl mx-auto p-5 mt-20">
+        <AboutMe />
         <Skills />
         <Projects />
         <Footer />
