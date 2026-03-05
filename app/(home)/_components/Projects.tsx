@@ -57,18 +57,18 @@ export default function Projects() {
     //     "https://res.cloudinary.com/dblgunawk/image/upload/v1734959572/e-shop_u2gsay.png",
     //   background: "bg-blue-500",
     // },
-    // {
-    //   id: "4",
-    //   title: "Krello",
-    //   tech: [SiNextdotjs, SiTypescript, SiTailwindcss, SiPrisma],
-    //   githubLink: "https://github.com/Alexandra2888/krello",
-    //   deploymentLink: "https://krello-beta.vercel.app/",
-    //   description:
-    //     "Krello is a sophisticated Trello clone that showcases advanced web development skills using modern technologies. Built with Next.js and React, this project demonstrates proficiency in creating complex, interactive user interfaces with drag-and-drop functionality for intuitive task management. Key features include robust user authentication via Clerk, real-time updates, and seamless integration with third-party services.",
-    //   cover:
-    //     "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/Device_-_Macbook_Pro2_cf5gfe_je7rfx.png",
-    //   background: "bg-purple-500",
-    // },
+    {
+      id: "4",
+      title: "Krello",
+      tech: [SiNextdotjs, SiTypescript, SiTailwindcss, SiPrisma],
+      githubLink: "https://github.com/Alexandra2888/krello",
+      deploymentLink: "https://krello-beta.vercel.app/",
+      description:
+        "Krello is a sophisticated Trello clone that showcases advanced web development skills using modern technologies. Built with Next.js and React, this project demonstrates proficiency in creating complex, interactive user interfaces with drag-and-drop functionality for intuitive task management. Key features include robust user authentication via Clerk, real-time updates, and seamless integration with third-party services.",
+      cover:
+        "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/Device_-_Macbook_Pro2_cf5gfe_je7rfx.png",
+      background: "bg-purple-500",
+    },
     {
       id: "11",
       title: "Website Analyzer",
