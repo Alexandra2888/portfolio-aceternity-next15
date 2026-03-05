@@ -1,13 +1,14 @@
 import Link from 'next/link';
 import React from 'react'
-import { SiLinkedin, SiGithub, SiHashnode } from 'react-icons/si';
+import { SiGithub, SiHashnode } from 'react-icons/si';
+import { FaLinkedin } from 'react-icons/fa';
 
 export default function Socials({className}:{className?:string}) {
     const socials = [
         {
         link: "https://www.linkedin.com/in/alexandram28/",
         label: "Linkedin",
-        icon:SiLinkedin
+        icon:FaLinkedin
         },
         {
           link: "https://github.com/Alexandra2888",
