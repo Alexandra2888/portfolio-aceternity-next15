@@ -1,5 +1,5 @@
 import {
-  SiCss3,
+  SiCss,
   SiFirebase,
   SiMongodb,
   SiNextdotjs,
@@ -17,7 +17,7 @@ export const projects = [
   {
     id: "1",
     title: "Pawsitive Vet Care",
-    tech: [SiReact, SiTypescript, SiCss3, SiFirebase],
+    tech: [SiReact, SiTypescript, SiCss, SiFirebase],
     githubLink: "https://github.com/Alexandra2888/PawSitive-Care-Vet",
     deploymentLink: "https://paw-sitive-care-vet.vercel.app/",
     description:

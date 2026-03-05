@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 import { DirectionAwareHover } from "@/components/ui/direction-aware-hover";
 import Title from "./Title";
 import {
-  SiCss3,
+  SiCss,
   SiFirebase,
   SiMongodb,
   SiNextdotjs,
@@ -24,7 +24,7 @@ export default function Projects() {
     // {
     //   id: "1",
     //   title: "Pawsitive Vet Care",
-    //   tech: [SiReact, SiTypescript, SiCss3, SiFirebase],
+    //   tech: [SiReact, SiTypescript, SiCss, SiFirebase],
     //   githubLink: "https://github.com/Alexandra2888/PawSitive-Care-Vet",
     //   deploymentLink: "https://paw-sitive-care-vet.vercel.app/",
     //   description:
