@@ -14,11 +14,11 @@ export const metadata: Metadata = {
 	},
 
 	description:
-		"I'm a FullStack developer passionate about building a modern web application that users love.",
+		"I'm an AI & fullstack engineer with ~5 years' experience, focused on shipping production AI systems — multi-agent orchestration, RAG pipelines, LLM tool-use, and real-time voice agents — on top of solid fullstack foundations in Python/FastAPI and TypeScript/Next.js. I've been sole developer or top contributor on multiple AI products, taking them from architecture to deployment. My pharmacy background brings genuine fluency for regulated and health-adjacent domains.",
 	openGraph: {
 		title: "Alexandra",
 		description:
-			"I'm a FullStack developer passionate about building a modern web application that users love.",
+			"I'm an AI & fullstack engineer with ~5 years' experience, focused on shipping production AI systems — multi-agent orchestration, RAG pipelines, LLM tool-use, and real-time voice agents — on top of solid fullstack foundations in Python/FastAPI and TypeScript/Next.js. I've been sole developer or top contributor on multiple AI products, taking them from architecture to deployment. My pharmacy background brings genuine fluency for regulated and health-adjacent domains.",
 		url: "https://main--portfolio-alexandram28.netlify.app",
 		siteName: "alexandra",
 		images: "/og.png",
