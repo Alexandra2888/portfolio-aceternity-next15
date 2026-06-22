@@ -4,7 +4,10 @@ import { DirectionAwareHover } from "@/components/ui/direction-aware-hover";
 import Title from "./Title";
 import {
   SiCss,
+  SiFastapi,
   SiFirebase,
+  SiHubspot,
+  SiLangchain,
   SiMongodb,
   SiNextdotjs,
   SiNodedotjs,
@@ -12,6 +15,7 @@ import {
   SiPrisma,
   SiReact,
   SiReactquery,
+  SiSqlalchemy,
   SiSupabase,
   SiPython,
   SiTailwindcss,
@@ -58,28 +62,23 @@ export default function Projects() {
     //   background: "bg-blue-500",
     // },
     {
-      id: "4",
-      title: "Krello",
-      tech: [SiNextdotjs, SiTypescript, SiTailwindcss, SiPrisma],
-      githubLink: "https://github.com/Alexandra2888/krello",
-      deploymentLink: "https://krello-beta.vercel.app/",
+      id: "12",
+      title: "Meridian",
+      tech: [
+        SiFastapi,
+        SiLangchain,
+        SiSqlalchemy,
+        SiOpenai,
+        SiHubspot,
+        SiNextdotjs,
+      ],
+      githubLink: "https://github.com/Alexandra2888/Meridian",
+      deploymentLink: "https://meridian-one-mu.vercel.app/",
       description:
-        "Krello is a sophisticated Trello clone that showcases advanced web development skills using modern technologies. Built with Next.js and React, this project demonstrates proficiency in creating complex, interactive user interfaces with drag-and-drop functionality for intuitive task management. Key features include robust user authentication via Clerk, real-time updates, and seamless integration with third-party services.",
+        'Meridian: the line along which disconnected things align. The orchestration layer that pulls independent learner-facing agents onto a single path, so one learner question gets one coherent answer.\n\nA learner asking a compound question — "What program is right for me, and what jobs does it lead to once I graduate?" — should not have to bounce between unconnected chat agents. Meridian routes the query across a Discovery and a Career agent in parallel, pulls live CRM context from HubSpot, and synthesizes a single streamed response.\n\nStack: FastAPI + LangGraph orchestrator, SQLAlchemy/Alembic, OpenAI, HubSpot, and a Next.js 16 (App Router) + React 19 client with Tailwind v4, shadcn/ui, and Zustand.',
       cover:
-        "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/Device_-_Macbook_Pro2_cf5gfe_je7rfx.png",
-      background: "bg-purple-500",
-    },
-    {
-      id: "11",
-      title: "Website Analyzer",
-      tech: [SiNextdotjs, SiPython, SiTypescript, SiTailwindcss],
-      githubLink: "https://github.com/Alexandra2888/website-analyzer",
-      deploymentLink: "https://website-analyze.vercel.app/",
-      description:
-        "A comprehensive website analysis tool built with Next.js and Python. Provides detailed performance audits, SEO analysis, accessibility checks, and actionable insights to help optimize any website.",
-      cover:
-        "https://res.cloudinary.com/dblgunawk/image/upload/v1772641457/analyzer_au0jbq.png",
-      background: "bg-emerald-700",
+        "https://res.cloudinary.com/dblgunawk/image/upload/v1782113129/meridian_pm9vil.png",
+      background: "bg-sky-700",
     },
     {
       id: "10",
@@ -91,7 +90,7 @@ export default function Projects() {
         "An AI-powered application builder that transforms ideas into fully functional Next.js applications. Built with Next.js 15, TypeScript, Tailwind CSS, shadcn/ui, and powered by LangChain + Anthropic Claude. Features include AI design generation, live preview, Monaco code editor, and project export.",
       cover:
         "https://res.cloudinary.com/dblgunawk/image/upload/v1772641019/ai-builder_jq4jxw.png",
-      background: "bg-cyan-700",
+      background: "bg-orange-700",
     },
     {
       id: "5",
@@ -115,7 +114,7 @@ export default function Projects() {
         "Object Detection App is a real-time web application built with Next.js and TensorFlow.js. It uses the COCO-SSD model to detect and classify objects from a live webcam feed.",
       cover:
         "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/Device_-_Macbook_Pro5_zoxynj_anhfis.png",
-      background: "bg-gray-500",
+      background: "bg-slate-600",
     },
     {
       id: "7",
@@ -127,7 +126,7 @@ export default function Projects() {
         "Audit-AI is an advanced smart contract auditing tool built with Next.js and powered by OpenAI. It offers both a web application and a CLI tool for automated security analysis of blockchain smart contracts.",
       cover:
         "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/Device_-_Macbook_Pro3_mw7qct_t1eles.png",
-      background: "bg-orange-700",
+      background: "bg-indigo-700",
     },
     {
       id: "8",
@@ -138,7 +137,7 @@ export default function Projects() {
       description: "Fashion Vogue AI is a personal AI stylist",
       cover:
         "https://res.cloudinary.com/dblgunawk/image/upload/v1734958595/fashion-ai_ayrhox.png",
-      background: "bg-indigo-700",
+      background: "bg-emerald-700",
     },
     {
       id: "9",
@@ -149,7 +148,31 @@ export default function Projects() {
       description: "The right AI for every task",
       cover:
         "https://res.cloudinary.com/dblgunawk/image/upload/v1734958739/octofy_hl0fv3.png",
-      background: "bg-green-700",
+      background: "bg-rose-600",
+    },
+    {
+      id: "11",
+      title: "Website Analyzer",
+      tech: [SiNextdotjs, SiPython, SiTypescript, SiTailwindcss],
+      githubLink: "https://github.com/Alexandra2888/website-analyzer",
+      deploymentLink: "https://website-analyze.vercel.app/",
+      description:
+        "A comprehensive website analysis tool built with Next.js and Python. Provides detailed performance audits, SEO analysis, accessibility checks, and actionable insights to help optimize any website.",
+      cover:
+        "https://res.cloudinary.com/dblgunawk/image/upload/v1772641457/analyzer_au0jbq.png",
+      background: "bg-amber-600",
+    },
+    {
+      id: "4",
+      title: "Krello",
+      tech: [SiNextdotjs, SiTypescript, SiTailwindcss, SiPrisma],
+      githubLink: "https://github.com/Alexandra2888/krello",
+      deploymentLink: "https://krello-beta.vercel.app/",
+      description:
+        "Krello is a sophisticated Trello clone that showcases advanced web development skills using modern technologies. Built with Next.js and React, this project demonstrates proficiency in creating complex, interactive user interfaces with drag-and-drop functionality for intuitive task management. Key features include robust user authentication via Clerk, real-time updates, and seamless integration with third-party services.",
+      cover:
+        "https://res.cloudinary.com/dblgunawk/image/upload/v1732728817/Device_-_Macbook_Pro2_cf5gfe_je7rfx.png",
+      background: "bg-blue-600",
     },
   ];
 

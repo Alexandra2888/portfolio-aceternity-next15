@@ -1,6 +1,9 @@
 import {
   SiCss,
+  SiFastapi,
   SiFirebase,
+  SiHubspot,
+  SiLangchain,
   SiMongodb,
   SiNextdotjs,
   SiNodedotjs,
@@ -8,12 +11,32 @@ import {
   SiPrisma,
   SiPython,
   SiReact,
+  SiSqlalchemy,
   SiTailwindcss,
   SiTensorflow,
   SiTypescript,
 } from "react-icons/si";
 
 export const projects = [
+  {
+    id: "12",
+    title: "Meridian",
+    tech: [
+      SiFastapi,
+      SiLangchain,
+      SiSqlalchemy,
+      SiOpenai,
+      SiHubspot,
+      SiNextdotjs,
+    ],
+    githubLink: "https://github.com/Alexandra2888/Meridian",
+    deploymentLink: "https://meridian-one-mu.vercel.app/",
+    description:
+      'Meridian: the line along which disconnected things align. The orchestration layer that pulls independent learner-facing agents onto a single path, so one learner question gets one coherent answer.\n\nA learner asking a compound question — "What program is right for me, and what jobs does it lead to once I graduate?" — should not have to bounce between unconnected chat agents. Meridian routes the query across a Discovery and a Career agent in parallel, pulls live CRM context from HubSpot, and synthesizes a single streamed response.\n\nStack: FastAPI + LangGraph orchestrator, SQLAlchemy/Alembic, OpenAI, HubSpot, and a Next.js 16 (App Router) + React 19 client with Tailwind v4, shadcn/ui, and Zustand.',
+    cover:
+      "https://res.cloudinary.com/dblgunawk/image/upload/v1782113129/meridian_pm9vil.png",
+    background: "bg-sky-700",
+  },
   {
     id: "1",
     title: "Pawsitive Vet Care",
