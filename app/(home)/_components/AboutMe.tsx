@@ -1,33 +1,41 @@
 import React from "react";
 import Title from "./Title";
-import { SiReact, SiNextdotjs, SiTypescript } from "react-icons/si";
+import {
+  SiReact,
+  SiNextdotjs,
+  SiTypescript,
+  SiPython,
+  SiFastapi,
+} from "react-icons/si";
 import { HiSparkles, HiCpuChip, HiCodeBracket } from "react-icons/hi2";
 
 const highlights = [
   {
-    icon: HiCodeBracket,
-    label: "5+ Years",
-    detail: "React, Next.js & TypeScript",
-    accent: "bg-green-500",
-  },
-  {
     icon: HiCpuChip,
-    label: "AI Startup",
-    detail: "Building intelligent products",
+    label: "Production AI",
+    detail: "Multi-agent, RAG & LLM tool-use",
     accent: "bg-indigo-500",
   },
   {
     icon: HiSparkles,
-    label: "System Design",
-    detail: "Scalable architecture & DX",
+    label: "Real-time Voice",
+    detail: "Low-latency voice agents",
+    accent: "bg-green-500",
+  },
+  {
+    icon: HiCodeBracket,
+    label: "~5 Years",
+    detail: "Python/FastAPI & TypeScript/Next.js",
     accent: "bg-green-500",
   },
 ];
 
 const techStack = [
-  { icon: SiReact, name: "React" },
-  { icon: SiNextdotjs, name: "Next.js" },
+  { icon: SiPython, name: "Python" },
+  { icon: SiFastapi, name: "FastAPI" },
   { icon: SiTypescript, name: "TypeScript" },
+  { icon: SiNextdotjs, name: "Next.js" },
+  { icon: SiReact, name: "React" },
 ];
 
 export default function AboutMe() {
@@ -41,24 +49,35 @@ export default function AboutMe() {
       <div className="mt-16 grid grid-cols-1 lg:grid-cols-5 gap-10 items-start">
         <div className="lg:col-span-3 space-y-6">
           <p className="text-lg text-gray-300 leading-relaxed">
-            I&apos;m a frontend-focused engineer with{" "}
-            <span className="text-green-400 font-semibold">
-              5+ years of experience
+            I&apos;m an{" "}
+            <span className="text-indigo-400 font-semibold">
+              AI &amp; fullstack engineer
             </span>{" "}
-            shipping production apps with React, Next.js, and TypeScript. I
-            currently work at an{" "}
-            <span className="text-indigo-400 font-semibold">AI startup</span>,
-            where I build intelligent, user-facing products from zero to one.
+            with{" "}
+            <span className="text-green-400 font-semibold">
+              ~5 years of experience
+            </span>
+            , focused on shipping production AI systems — multi-agent
+            orchestration, RAG pipelines, LLM tool-use, and real-time voice
+            agents — on top of solid fullstack foundations in{" "}
+            <span className="text-green-400 font-semibold">Python/FastAPI</span>{" "}
+            and{" "}
+            <span className="text-green-400 font-semibold">
+              TypeScript/Next.js
+            </span>
+            .
           </p>
           <p className="text-lg text-gray-300 leading-relaxed">
-            Beyond day-to-day coding, I&apos;m passionate about{" "}
-            <span className="text-green-400 font-semibold">system design</span>{" "}
-            — thinking through scalable architectures, clean abstractions, and
-            great developer experience. I care deeply about performance,
-            accessibility, and writing code that other humans enjoy reading.
+            I&apos;ve been sole developer or top contributor on multiple AI
+            products, taking them from{" "}
+            <span className="text-indigo-400 font-semibold">
+              architecture to deployment
+            </span>
+            . My pharmacy background brings genuine fluency for regulated and
+            health-adjacent domains.
           </p>
 
-          <div className="flex items-center gap-4 pt-4">
+          <div className="flex flex-wrap items-center gap-4 pt-4">
             {techStack.map(({ icon: Icon, name }) => (
               <div
                 key={name}
