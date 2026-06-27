@@ -3,11 +3,13 @@ import { cn } from "@/lib/utils";
 import { DirectionAwareHover } from "@/components/ui/direction-aware-hover";
 import Title from "./Title";
 import {
+  SiAnthropic,
   SiCss,
   SiFastapi,
   SiFirebase,
   SiHubspot,
   SiLangchain,
+  SiLanggraph,
   SiMongodb,
   SiNextdotjs,
   SiNodedotjs,
@@ -61,6 +63,27 @@ export default function Projects() {
     //     "https://res.cloudinary.com/dblgunawk/image/upload/v1734959572/e-shop_u2gsay.png",
     //   background: "bg-blue-500",
     // },
+    {
+      id: "13",
+      title: "Dephted",
+      tech: [
+        SiNextdotjs,
+        SiTypescript,
+        SiPython,
+        SiFastapi,
+        SiLangchain,
+        SiLanggraph,
+        SiOpenai,
+        SiAnthropic,
+      ],
+      githubLink: "https://github.com/Alexandra2888/Dephted",
+      deploymentLink: "https://dephted.vercel.app/",
+      description:
+        "Dephted is a multi-agent system for backend learning. It orchestrates multiple AI agents to guide learners through backend engineering concepts, built with a Next.js + TypeScript client and a Python/FastAPI backend powered by LangChain and LangGraph, with OpenAI and Anthropic models driving the agents.",
+      cover:
+        "https://res.cloudinary.com/dblgunawk/image/upload/v1782555764/depthed_f97vuu.png",
+      background: "bg-violet-700",
+    },
     {
       id: "12",
       title: "Meridian",
