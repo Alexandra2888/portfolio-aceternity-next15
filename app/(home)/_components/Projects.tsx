@@ -10,10 +10,13 @@ import {
   SiHubspot,
   SiLangchain,
   SiLanggraph,
+  SiMilvus,
   SiMongodb,
   SiNextdotjs,
   SiNodedotjs,
+  SiOllama,
   SiOpenai,
+  SiPostgresql,
   SiPrisma,
   SiReact,
   SiReactquery,
@@ -27,6 +30,25 @@ import {
 
 export default function Projects() {
   const projects = [
+    {
+      id: "14",
+      title: "RAG Dog Breeds",
+      tech: [
+        SiNextdotjs,
+        SiPython,
+        SiFastapi,
+        SiPostgresql,
+        SiOllama,
+        SiMilvus,
+      ],
+      githubLink: "https://github.com/Alexandra2888/rag-dog-breeds",
+      deploymentLink: "https://rag-dog-breeds.vercel.app/",
+      description:
+        "A RAG application that answers questions about dog breeds from a PDF knowledge base. A Next.js frontend talks to a Python/FastAPI backend that chunks and embeds the dog-breeds PDF with Jina embeddings, stores the vectors in a vector database, persists data in Neon Postgres, and runs local LLM inference with Ollama to generate grounded, source-backed answers.",
+      cover:
+        "https://res.cloudinary.com/dblgunawk/image/upload/v1782656280/dog-breed_j0psbm.png",
+      background: "bg-teal-700",
+    },
     // {
     //   id: "1",
     //   title: "Pawsitive Vet Care",
